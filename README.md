@@ -61,7 +61,7 @@ This machine learning project focuses on predicting "cab fare amount", "fuel con
 
 
 
-# Evaluation (Train Data)
+# Result Summary
 
 | Model                   | RMSE (Train) | R² Score (Train) | RMSE (Test) | R² Score (Test) |
 | ----------------------- | ------------ | -----------------| ----------- | --------------- |
