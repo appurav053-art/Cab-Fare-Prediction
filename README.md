@@ -55,7 +55,6 @@ This machine learning project focuses on predicting "cab fare amount", "fuel con
 | "passenger_count"  | Number of passengers                        |
 | "fare_amount"      | Fare charged for the trip (target)          |
 | "trip_distance"    | Distance traveled (engineered feature)      |
-| "trip_duration"    | Duration of the ride                        |
 | "fuel_consumption" | Predicted fuel consumption (target)         |
 | "combustion_energy"| Estimated combustion energy (target)        |
 
