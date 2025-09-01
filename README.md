@@ -1,4 +1,4 @@
-# Cab Fare Prediction ML Project
+# Smart Cab 
 
 This machine learning project focuses on predicting "cab fare amount", "fuel consumption", and "combustion energy" based on various trip-related features. It uses regression techniques to build predictive models on a real-world dataset, applying effective data preprocessing, feature engineering, and model evaluation methods.
 
