@@ -14,22 +14,17 @@ __pycache__/
 # Virtual Environments
 # =============================
 venv/
-env/
-.venv/
-ENV/
+myenv/
 
 # =============================
 # Data Files (Optional)
 # =============================
 # Ignore raw or large data files, unless you want to share them
 data/raw/
-data/interim/
 data/processed/
 *.csv
-*.tsv
 *.xlsx
 *.json
-*.parquet
 
 # =============================
 # Model Artifacts
@@ -37,10 +32,6 @@ data/processed/
 models/
 *.joblib
 *.pkl
-*.h5
-*.sav
-*.pt
-*.onnx
 
 # =============================
 # Logs and Outputs
@@ -52,12 +43,6 @@ results/
 figures/
 
 # =============================
-# System Files
-# =============================
-.DS_Store
-Thumbs.db
-
-# =============================
 # Environment Variables
 # =============================
 .env
@@ -67,10 +52,3 @@ Thumbs.db
 # VSCode or PyCharm
 # =============================
 .vscode/
-.idea/
-
-# =============================
-# Jupyter Notebook Metadata
-# =============================
-*.nbconvert.ipynb
-
