@@ -1,23 +1,76 @@
-# Jupyter Notebook checkpoints
+# =============================
+# Python
+# =============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =============================
+# Jupyter Notebooks
+# =============================
 .ipynb_checkpoints/
 
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Virtual environment
+# =============================
+# Virtual Environments
+# =============================
 venv/
 env/
-.env
+.venv/
+ENV/
 
-# OS files
+# =============================
+# Data Files (Optional)
+# =============================
+# Ignore raw or large data files, unless you want to share them
+data/raw/
+data/interim/
+data/processed/
+*.csv
+*.tsv
+*.xlsx
+*.json
+*.parquet
+
+# =============================
+# Model Artifacts
+# =============================
+models/
+*.joblib
+*.pkl
+*.h5
+*.sav
+*.pt
+*.onnx
+
+# =============================
+# Logs and Outputs
+# =============================
+*.log
+logs/
+output/
+results/
+figures/
+
+# =============================
+# System Files
+# =============================
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
+# =============================
+# Environment Variables
+# =============================
+.env
+.env.*
 
-# Model files
-*.joblib
+# =============================
+# VSCode or PyCharm
+# =============================
+.vscode/
+.idea/
+
+# =============================
+# Jupyter Notebook Metadata
+# =============================
+*.nbconvert.ipynb
+
