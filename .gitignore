@@ -1,24 +1,23 @@
-# =============================
 # Python
-# =============================
+
 __pycache__/
 *.py[cod]
 *$py.class
 
-# =============================
+
 # Jupyter Notebooks
-# =============================
+
 .ipynb_checkpoints/
 
-# =============================
+
 # Virtual Environments
-# =============================
+
 venv/
 myenv/
 
-# =============================
+
 # Data Files (Optional)
-# =============================
+
 # Ignore raw or large data files, unless you want to share them
 data/raw/
 data/processed/
@@ -26,29 +25,21 @@ data/processed/
 *.xlsx
 *.json
 
-# =============================
+
 # Model Artifacts
-# =============================
+
 models/
 *.joblib
 *.pkl
 
-# =============================
-# Logs and Outputs
-# =============================
-*.log
-logs/
-output/
-results/
-figures/
 
-# =============================
+
 # Environment Variables
-# =============================
+
 .env
 .env.*
 
-# =============================
+
 # VSCode or PyCharm
-# =============================
+
 .vscode/
